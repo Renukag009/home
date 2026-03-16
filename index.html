@@ -3,34 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     
 </head>
 <body>
-    
-    <nav>
-        <div class="logo"> <img src="https://www.shutterstock.com/image-vector/camera-logo-modern-photography-signature-600nw-2382519781.jpg" alt=""></div>
+<nav>
+<div class="logo"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUlWWCZufiNBcxAZ56MzfL4rkXSw0CIAj-dQ&s" alt=""></div>
 <div class="collapse navbar-collapse" id="mynavbar">
-                        <ul class="nav navbar-nav">
-                            <h1>dream's photography studio </h1>
-                            <li><a href="website.html">Home</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact us.html">contact us</a></li>
-                            <li><a href="FAQ.HTML">FAQ</a></li>
-                            <li><a href="about me.html">about me</a></li>
-                             need help
-        0123456789
-                            </ul>
-                            </div>
-                            </div>
-                            </nav>
-                    
-       
-   
-<h4>home page</h4>
-  <h1>GALLERY</h1>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ex fuga in ipsum quae dolore magni impedit veritatis quaerat ullam laboriosam enim qui consectetur, blanditiis quasi iste. Ipsum, quos voluptatem.</p>
-<h1>Latest photo Gallery</h1>
-<p class="p1"> sample text click to select tha text. click again or double click to start ediding the text</p>
+<ul class="nav navbar-nav">
+    <h1>Dream's photography studio </h1>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="contact us.html">Contact us</a></li>
+    <li><a href="FAQ.HTML">FAQ</a></li>
+    <li><a href="about me.html">About me</a></li>
+    need help
+    0123456789
+    </ul>
+    </div>
+    </div>
+    </nav>
+    <title>carousel</title>
+    <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://www.findbanquet.com/blog/wp-content/uploads/2024/06/photographers.jpg" alt="Los Angeles" style="width:100%;">
+    </div>
+
+      <div class="item">
+        <img src="https://aaft.com/blog/wp-content/uploads/2025/05/AdobeStock_150026021.jpeg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="https://www.iphotography.com/wp-content/uploads/2023/06/Best-Cameras-for-Professional-Photography-1.jpg" alt="New york" style="width:100%;">
+      </div>
+    </div>
+ 
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<h2>Latest photo Gallery</h2>
+<p class="p1"><h3> sample text click to select tha text. click again or double click to start ediding the text</p>
 <h2><img src="https://cdn.pixabay.com/photo/2024/07/14/14/42/woman-8894656_1280.jpg">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_7Az8uy6oDAswhzZkcgSZUn9kSNfE2Iz-7g&s">
 <img src="https://nottinghamfamilyphotographer.com/wp-content/uploads/2022/04/women-photoshoot.jpg.webp"></h2>
@@ -67,8 +101,20 @@ ensuring that charity work is rooted in compassion
 
 </body>
 <style>
+
+    h3{
+        text-align: center;
+        color: white;
+    }
+    body{
+        background-color: rgba(110, 108, 110, 0.767);
+    }
+    h2{
+        text-align: center;
+        background-color: rgb(220, 235, 23);
+    }
     h4{
-        color: blue;
+        color: rgb(221, 221, 226);
     }
     h2 img{
         height: 500px;
@@ -81,14 +127,14 @@ ensuring that charity work is rooted in compassion
     nav{
         display: flex;
         text-align:center ;
-        background-color: yellow;
+        background-color: rgba(248, 124, 227, 0.89);
         padding: 10px 20px;
-        color: blue;
+        color: rgb(14, 1, 3);
         justify-content: space-between;
     }
     div img{
-        height:100px;
-        width: 100px;
+        height:150px;
+        width: 200px;
     }
     ul{
         display:flex ;
